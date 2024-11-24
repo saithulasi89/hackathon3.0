@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // Sets the base directory for resolving paths
+    "paths": {
+      "@/*": ["src/*"], // Alias for all files in the src folder
+      "@/lib/*": ["src/lib/*"] // Alias specifically for the src/lib folder
+    }
+  }
+}
